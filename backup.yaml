@@ -1,0 +1,9 @@
+apiVersion: data-protection.isf.ibm.com/v1alpha1
+kind: Backup
+metadata:
+  name: auto-fb-spoke1-20230702-1122581-azure-dpcos1-daily-202307102004
+  namespace: ibm-spectrum-fusion-ns
+spec:
+  appCluster: apps.ocp-50t6fjkgae-8a65.cloud.techzone.ibm.com
+  application: lab1
+  backupPolicy: monthly
